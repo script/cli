@@ -1,0 +1,24 @@
+{
+  "name": "@script/cli",
+  "version": "1.0.0",
+  "description": "A command line tool for managing scripts.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch",
+    "lint": "gts check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/script/cli.git"
+  },
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/script/cli/issues"
+  },
+  "homepage": "https://github.com/script/cli#readme",
+  "devDependencies": {
+    "gts": "^0.9.0"
+  }
+}
