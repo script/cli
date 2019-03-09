@@ -1,6 +1,11 @@
+import {getFunctionDirectories} from '../files/utils';
 /**
- * Lists all functions.
+ * Lists all local functions.
  */
 export default async (cmd: {}) => {
-  console.log('list');
+  console.log('# List of functions');
+  const dirs = getFunctionDirectories();
+  dirs.map((d: string) => {
+    console.log(d);
+  })
 };

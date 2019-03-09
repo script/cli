@@ -29,5 +29,7 @@
     "gts": "^0.9.0",
     "typescript": "^3.3.3333"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gcx": "^0.1.1"
+  }
 }
