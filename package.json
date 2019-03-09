@@ -25,11 +25,14 @@
   "homepage": "https://github.com/script/cli#readme",
   "devDependencies": {
     "@types/node": "^11.11.0",
+    "ansi-escapes": "^3.2.0",
     "commander": "^2.19.0",
+    "gcx": "^0.1.1",
     "gts": "^0.9.0",
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "gcx": "^0.1.1"
+    "@types/ansi-escapes": "^3.0.1",
+    "chokidar": "^2.1.2"
   }
 }

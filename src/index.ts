@@ -4,6 +4,7 @@ import * as commander from 'commander';
 
 import list from './commands/list';
 import run from './commands/run';
+import watch from './commands/watch';
 
 const PROJECT_NAME = 's';
 
@@ -33,9 +34,12 @@ commander
   .description('Runs a function')
   .action(run);
 
-// defaults to help if commands are not provided
+/**
+ * Default to watch functions
+ */
 if (!process.argv.slice(2).length) {
-  commander.outputHelp();
+  watch();
+  // commander.outputHelp();
 }
 // User input is provided from the process' arguments
 commander.parse(process.argv);
