@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/script/cli#readme",
   "devDependencies": {
-    "gts": "^0.9.0"
+    "gts": "^0.9.0",
+    "typescript": "^3.3.3333"
   }
 }
