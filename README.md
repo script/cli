@@ -22,3 +22,17 @@ s
 
 - `s run`: Prompts for a function.
 - `s run myFunction`: Runs `myFunction`.
+
+## Develop
+
+Install once:
+```sh
+npm i
+```
+
+Build (watch):
+```sh
+npm run watch
+```
+
+After watching, the command will automatically update.

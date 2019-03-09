@@ -2,11 +2,16 @@
   "name": "@script/cli",
   "version": "1.0.0",
   "description": "A command line tool for managing scripts.",
-  "main": "index.js",
+  "bin": {
+    "s": "./build/src/index.js"
+  },
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
-    "watch": "tsc -p . --watch",
-    "lint": "gts check"
+    "watch": "tsc -p . --watch && sudo npm i -g .",
+    "lint": "gts check",
+    "clean": "rm -rf build/ node_modules/"
   },
   "repository": {
     "type": "git",
