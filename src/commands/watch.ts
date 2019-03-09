@@ -14,7 +14,8 @@ export default async () => {
   watch(rootDir, {
     ignored: /(^|[\/\\])\../
   }).on('all', (event, path) => {
-    console.log(event, path);
-    if (event === 'change') {}
+    if (event === 'change') {
+      console.log(event, path);
+    }
   });
 };
