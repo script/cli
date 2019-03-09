@@ -15,5 +15,10 @@ s
 
 ### s list
 
-- `s list` Lists all functions.
-- `s list --json` Lists all functions as json.
+- `s list`: Lists all functions.
+- `s list --json`: Lists all functions as json.
+
+### s run
+
+- `s run`: Prompts for a function.
+- `s run myFunction`: Runs `myFunction`.
